@@ -8,4 +8,7 @@
 
 
 // DOCUMENT READY FUNCTION BELOW
-
+$("#shoot").click(function(){
+    let pplChoice=$("#input").val();
+$("#userChoice").text(pplChoice);
+});
